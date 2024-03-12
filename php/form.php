@@ -1,6 +1,6 @@
 <?php
 $email_host = 'smtp.gmail.com'; // SMTP host ex. smtp.gmail.com for gmail mailserver
-$email = 'example@gmail.com'; // Your Email Address
+$email = 'mmcpherson52@gmail.com'; // Your Email Address
 $email_passsword = 'emailpassword'; //  Password
 
 $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
@@ -27,6 +27,13 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
 
     /** SIMPLE VALIDATION FUNCTION */
 
+
+// Validate form data.
+// Configure PHPMailer for sending emails.
+// Load HTML templates for success and notification messages.
+// Modify template content based on form data.
+// Send success email to the user and notification email to the site owner.
+// Return a JSON response indicating the status of the form submission.
     
 
     $response = array();
