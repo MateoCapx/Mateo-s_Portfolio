@@ -11,7 +11,6 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
     | Mailer module
     |--------------------------------
     | For Contact Form
-    |
     */
 
     //PHPMailer Include
@@ -49,7 +48,7 @@ $welcome_subject = "Thank you for getting in touch!"; //Success Message Subject
     if( validate_post($_POST['name']) && validate_post($_POST['email']) ){
 
         try{
-            
+            header("Access-Control-Allow-Origin: *");
             $mail = new PHPMailer;
             $mail->isSMTP();
             $mail->Mailer = "smtp";
