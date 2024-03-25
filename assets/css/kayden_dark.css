@@ -7737,8 +7737,13 @@ textarea.form-control-lg {
   height: 100vh !important;
 }
 
+section#about.min-vh-100{
+  padding-top: 100px
+}
+
 .min-vh-100 {
   min-height: 100vh !important;
+  
 }
 
 .flex-fill {
@@ -12211,7 +12216,7 @@ p {
 /* 4.2 Section Settings */
 section {
   position: relative;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 section.secondary-section {
@@ -12710,8 +12715,10 @@ img.img-grayTransition:hover {
 
 /* 6.5 Image Fit Helpers */
 img.fit-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
+  /* -o-object-fit: cover;
+     object-fit: cover; */
+
+     opacity: 40%;
 }
 
 img.fit-left-top {

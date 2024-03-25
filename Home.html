@@ -121,7 +121,8 @@
     <section id="home" class="home vh-100">
         <!--Home Background START-->
         <div class="home-background position-absolute top-0 start-0 w-100 h-100 show-dark-mode-absolute">
-            <img src="https://via.placeholder.com/1920x1080" data-aos="fade-up" data-aos-duration="1000" alt="home" class="w-100 h-100 fit-cover fit-left-top">
+            <img src="/assets/images/pexels-lenin-estrada-2569997.jpg" data-aos="fade-up" data-aos-duration="1000" alt="home" class="w-100 h-100 fit-cover fit-left-top" style= "background-attachment: scroll";
+            >
         </div>
         <!--Home Background END-->
         <!--Home Background START-->
@@ -508,7 +509,7 @@
                     </div>
                     <div class="col-md-6">
                         <h3 class="mb-5 fs-4 text-center text-sm-left"> Let's start to conversation</h3>
-                        <form action="php/form.php" method="POST" id="contact-form">
+                        <form action=" " method="POST" id="contact-form">
                             <div class="mb-4">
                                 <input type="text" name="name" id="name" placeholder="Full name" class="form-control">
                             </div>
@@ -569,7 +570,9 @@
     <!--To TOP END-->
     
     <!--JavaScript START-->
+    
     <!--Popper-->
+    <script src="./assets/js/sandbox.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <!--Bootstrap-->
     <script src="./assets/js/bootstrap.min.js"></script>
@@ -600,5 +603,12 @@
     <!--Kayden Custom Script -->
     <script src="./assets/js/kayden.js"></script>
     <!--JavaScript END-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("KgDgZSasLf7lYKdFO");
+        })();
+    </script>
 </body>
 </html>
